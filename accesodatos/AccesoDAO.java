@@ -16,7 +16,7 @@ public class AccesoDAO {
             System.err.println("Error al guardar acceso: " + e.getMessage());
         }
     }
-
+//g
     public List<Acceso> listarTodos() {
         List<Acceso> accesos = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(FILE_NAME))) {
